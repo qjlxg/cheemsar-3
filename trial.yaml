@@ -9,8 +9,71 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
+  - ⚡ ‍低延迟
+  - 👆🏻 ‍指定
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
+- name: ⚡ ‍低延迟
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id001
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+- name: 👆🏻 ‍指定
+  type: select
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -28,10 +91,16 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - ✈️ ‍起飞
+  - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
+  - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
   type: select
@@ -39,7 +108,75 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-proxies: []
+- name: 🇺🇸 ‍美国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 300
+  proxies: &id002
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+  - 🇺🇸 美国01_免费 - 山海
+- name: 🎏 ‍其他
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id003
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+  - 🇩🇪 德国01_免费 - 山海
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id002
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id003
+proxies:
+- {name: 🇺🇸 美国01_免费 - 山海, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 0be977e5-33df-4362-8b1f-63eae9ad1ac3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us01.sh-cloudflare.sbs, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
+- {name: 🇩🇪 德国01_免费 - 山海, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 0be977e5-33df-4362-8b1f-63eae9ad1ac3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: de01.sh-cloudflare.sbs, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
