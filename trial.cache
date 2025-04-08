@@ -1,292 +1,197 @@
-[within.sephirah.icu]
+[tv.modemhub.work]
 
-[wjkc123.com]
-error  <string>:2 Unexpected ";" at column 25
+[u4dqz2t0x576.syynweb.shop]
+
+[update.dotusub.xyz]
+
+[update.glados-config.com]
+error  HTTPSConnectionPool(host='glados.net', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f03f8963400>, 'Connection to glados.net timed out. (connect timeout=30)'))
 type  v2board
-更新订阅链接/续费续签失败  注册失败(jfqjkazo439@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found 'error')
+更新订阅链接/续费续签失败  注册失败(hebuynlf215@gmail.com): 没有权限
 
-[wly312.buzz]
+[upm8kfu.nicecloud.win:8443]
 
-[wm01dy.wmyun.men]
-banned_domains  psnator.com
+[url.409648.xyz]
+
+[url.funhub.cc]
+
+[url.mtdwoodwork.com]
+
+[us.freecat.cloud]
+
+[user.1vpn.sbs]
+
+[user.dafeiji.one]
+name  大飞机
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱验证码超时(copjnyl856@psnator.com)
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
 
-[wow.dogss-host.bond]
+[user.tsunaminet.cc]
 
-[wow.dogss-host.store]
-type  v2board
-更新订阅链接/续费续签失败  注册失败(zcoffjue704@gmail.com): 郵箱驗證碼不能為空
-
-[wpjlzq00.xiaoliyusub.top:8443]
-
-[wub.zongyunti.site]
-
-[wukong.baiwk.top]
-
-[wumao.jiumaojiu.net]
-
-[wuyouyun.shop]
-name  WY Cloud
-type  v2board
-更新订阅链接/续费续签失败  注册失败(pidszzrac860@gmail.com): 'NoneType' object is not subscriptable
-
-[wvw.guanxi.cloudns.be]
-
-[wwe.trx1.cyou]
-name  华夏联盟 Accelerate
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(cosldokj170@spam4.me): {'message': '验证码有误'}
-
-[wws.s2fjeyeeyafe.bond]
-api_host  wwn.huaxia.cyou
-name  华夏联盟 Accelerate
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ejuyeedzj900@tmpnator.live): {'message': '验证码有误'}
-
-[www.02er.com]
-
-[www.066664.xyz]
-
-[www.360vpn.org]
-
-[www.998877.best]
-name  失心瘋
-type  v2board
-更新订阅链接/续费续签失败  注册失败(niqceotor644@gmail.com): 'NoneType' object is not subscriptable
-
-[www.antlink.cc]
+[user192.dukadi.one]
 buy  pass
-email  llvwhptke470@gmail.com
-name  AntLink
+email  wdbzwiyho613@gmail.com
+name  杜卡迪
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://abc.xhonor.top:9066/v2b/ant/api/v1/client/subscribe?token=1ebb98e998d4281aa85c466b88843fcb
-time  2025-04-08 17:44:54.797734+08:00
+sub_url  https://user467.dukadi.one/api/v1/client/subscribe?token=c75d19c80c9fed801c91d8574b69f28e
+time  2025-04-08 17:49:30.671860+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[www.awa520.cloud]
-
-[www.awyyds.one]
-
-[www.baiyunvpn.xyz]
+[user413.dukadi.one]
 buy  pass
-email  wteztpqts554@qq.com
-name  白云
+email  uatebgszq388@gmail.com
+name  杜卡迪
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://149.104.13.36:44333/api/v1/client/subscribe?token=bc29d5418502fad668a719ddbc3d7009
-time  2025-04-08 17:44:55.439384+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[www.bitduct.net]
-
-[www.bptz.xyz]
-
-[www.bqg888.com]
-
-[www.catssr.host]
-name  猫云-CAT CLOUD
-type  v2board
-更新订阅链接/续费续签失败  注册失败(bukvwnk793@gmail.com): 'NoneType' object is not subscriptable
-
-[www.catssr.one]
-name  猫云-CAT CLOUD
-type  v2board
-更新订阅链接/续费续签失败  注册失败(unnyqte697@gmail.com): 'NoneType' object is not subscriptable
-
-[www.catssr.top]
-name  猫云-CAT CLOUD
-type  v2board
-更新订阅链接/续费续签失败  注册失败(qjkqlvak392@gmail.com): 'NoneType' object is not subscriptable
-
-[www.catssr.xyz]
-name  猫云-CAT CLOUD
-type  v2board
-更新订阅链接/续费续签失败  注册失败(xlpgvkd658@gmail.com): 'NoneType' object is not subscriptable
-
-[www.ccsub.online]
-
-[www.ccsub.org]
-
-[www.chaojijichang.com]
-
-[www.chituma.top]
-
-[www.ckckssl.top]
-name  ✈-夏哈斯-✈
-type  v2board
-更新订阅链接/续费续签失败  注册失败(uiyorjrch857@gmail.com): 'NoneType' object is not subscriptable
-
-[www.cloudshops.xyz]
-name  FC-CloudDisk
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(agegrpjyx604@end.tw): {'message': '验证码有误'}
-
-[www.crosswall.org]
-name  柯洛斯
-type  v2board
-更新订阅链接/续费续签失败  注册失败(zvuzqlxpq580@gmail.com): 'NoneType' object is not subscriptable
-
-[www.cwy-water.us.kg]
-
-[www.dabai.in]
-auto_invite  F
-buy  shop=31
-email  tpaymgcv845@gmail.com
-last_checkin  2025-04-08 17:44:57.412786+08:00
-name  大白
-node_n  7
-sub_info  0B  1T  2025-05-08 17:44:57+08:00  (剩余 1T 29 days, 23:59:56.629790)
-sub_url  https://www.dabai.in/link/lZDhl2WsKmgpy1lK?sub=3
-time  2025-04-08 17:44:58.437190+08:00
-type  sspanel
-
-[www.dma.icu]
-
-[www.elinksapi.com]
-name  Elinks
-type  v2board
-更新订阅链接/续费续签失败  注册失败(tgezlhg425@gmail.com): 'NoneType' object is not subscriptable
-
-[www.fanqiang88.top]
-name  翻墙吧
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(bgyvjozj506@yzm.de): {'message': '验证码有误'}
-
-[www.fdzdk.xyz]
-
-[www.flyintpro01.com]
-name  FlyintPro
-type  v2board
-更新订阅链接/续费续签失败  注册失败(fkdkbho302@gmail.com): The given data was invalid.
-
-[www.flyintpro05.com]
-name  FlyintPro
-type  v2board
-更新订阅链接/续费续签失败  注册失败(rjxtnciqo638@gmail.com): The given data was invalid.
-
-[www.freeflyingcloud.xyz]
-
-[www.ftclashcloud.mom]
-
-[www.ginfem.com]
-auto_invite  F
-banned_domains  tmpmail.net
-buy  pass
-email  ryxumtfhp712@guerrillamail.biz
-last_checkin  2025-04-08 17:45:08.322963+08:00
-name  银杏
-type  sspanel
-更新订阅链接/续费续签失败  'utf-8' codec can't decode byte 0xaa in position 59622: invalid start byte
-
-[www.hneko.world]
-
-[www.itonlyasub.xyz]
-
-[www.kuaidog008.top]
-buy  pass
-email  xjzdrmahk192@gmail.com
-name  快狗云
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://www.kuaidog010.top/api/v1/client/subscribe?token=e3248be6f0134d050fe9987a57d653b8
-time  2025-04-08 17:44:56.729271+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[www.kuaidog010.top]
-buy  pass
-email  sautjwevj418@gmail.com
-name  快狗云
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://www.kuaidog010.top/api/v1/client/subscribe?token=09c6c95a7a4561c6a64a36403d3a8324
-time  2025-04-08 17:44:56.756528+08:00
+sub_url  https://user40.dukadi.one/api/v1/client/subscribe?token=5b72286728ee8acb06e3a9d1c6382e7e
+time  2025-04-08 17:49:30.673720+08:00
 type  v2board
 保存base64/clash订阅失败  mapping values are not allowed here in "<byte string>", line 2, column 270: ... Q==" lang="en" style="background: #2B2B2B;"> ^ (line: 2)
 
-[www.laoniu49.top]
-
-[www.lbxjc.online]
-
-[www.liangyuandian.at]
+[user9125.eyudy.one]
 buy  pass
-email  zrhdlye153@gmail.com
-name  两元店
+email  ltdougchw792@gmail.com
+name  鳄鱼
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://www.xn--5hqx9equq.live/api/v1/client/subscribe?token=863100a32882b4b60613e81bdc93108f
-time  2025-04-08 17:44:56.883137+08:00
+sub_url  https://user9623.eyudy.one/api/v1/client/subscribe?token=075be416a3174a5582069e9d2b8d19d2
+time  2025-04-08 17:49:30.434392+08:00
 type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
+保存base64/clash订阅失败  string indices must be integers
 
-[www.liangyuandian.life]
+[user937.dukadi.one]
 buy  pass
-email  kgivaftst476@gmail.com
-name  两元店
+email  hgvuqdso201@gmail.com
+name  杜卡迪
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://www.xn--5hqx9equq.live/api/v1/client/subscribe?token=a02f30e56f78af1ea9c79b73a2d61d47
-time  2025-04-08 17:44:56.919215+08:00
+sub_url  https://dy265.dukadi.shop/api/v1/client/subscribe?token=850fcb8b31e30ebe49dacffdcc3486ba
+time  2025-04-08 17:49:30.670052+08:00
 type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
+保存base64/clash订阅失败  string indices must be integers
 
-[www.louwangzhiyu.xyz]
+[v.spwvpn.com]
+name  Sparrow 麻雀加速器
+type  v2board
+更新订阅链接/续费续签失败  注册失败(zjnoojmbb393@gmail.com): 本站已关闭注册
+
+[v2.545155.xyz]
+
+[v2.ixlmo.com]
+name  XLM加速器——不止快，还很稳
+type  v2board
+更新订阅链接/续费续签失败  注册失败(palasliyl381@gmail.com): 请关闭VPN或代理
+
+[v2.ixlmo.net]
+name  XLM加速器——不止快，还很稳
+type  v2board
+更新订阅链接/续费续签失败  注册失败(aqswqqgo280@gmail.com): 请关闭VPN或代理
+
+[v2.udid8.com]
+
+[v2-1.806cms.top]
+
+[v2b.hinetlove.site]
+
+[vase.bengalj.com]
+
+[vdmwy.itr.lol]
+
+[vip.365cloud.me]
+
+[vip.sgjc.top]
+
+[vips.lol]
+
+[vless1-698.pages.dev]
+
+[vodfavor.top]
+
+[vot.278986.xyz]
+name  EMO
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[vot.689861.xyz]
+name  EMO
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[vot.981176.xyz]
+name  EMO
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[vpn.gougouvpn.xyz:88]
+
+[vpn.linuxdo.pro]
+
+[vpn6688.com]
+
+[vps.huanshi88.sbs]
+
+[vt.louwangzhiyu.xyz]
 buy  period=month_price&plan_id=19
-email  jmyzbwhxl293@gmail.com
+email  ogdnpacum904@gmail.com
 name  漏网之鱼
 node_n  4
-sub_info  0B  1000G  2025-05-08 17:44:58+08:00  (剩余 1000G 29 days, 23:59:48.980667)
-sub_url  https://ch.owokkvsxks.store/api/v1/client/subscribe?token=47b00c214778d798d797b8b59136a5ff
-time  2025-04-08 17:44:59.153293+08:00
+sub_info  0B  1000G  2025-05-08 17:49:33+08:00  (剩余 1000G 29 days, 23:59:53.224372)
+sub_url  https://ch.vfkum.website/api/v1/client/subscribe?token=5cbe69bffcd31e64290fe5419ee4fe74
+time  2025-04-08 17:49:33.720018+08:00
 type  v2board
 
-[www.m2net.cc]
-name  M2network
+[vtwoc1.top]
+buy  pass
+email  fqpqmom34@gmail.com
+name  Vtwo云
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://www.vtwoc4.top/user/sub/api/scribe?token=99fdc86b986463cffec3713935f2b605
+time  2025-04-08 17:49:32.219580+08:00
 type  v2board
-更新订阅链接/续费续签失败  注册失败(eymyeix667@gmail.com): 'NoneType' object is not subscriptable
+保存base64/clash订阅失败  string indices must be integers
 
-[www.m2net.lol]
-name  M2network
+[vtwoc3.top]
+buy  pass
+email  lvrnhce941@gmail.com
+name  Vtwo云
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://www.vtwoc5.top/user/sub/api/scribe?token=606df6754da13244f387748aef601a58
+time  2025-04-08 17:49:32.222878+08:00
 type  v2board
-更新订阅链接/续费续签失败  注册失败(ddordjdj843@gmail.com): 'NoneType' object is not subscriptable
+保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[www.miyun.me]
-
-[www.mmsbs.buzz]
-name  白纸机场
+[vyyy.vyunyunnode.top]
+buy  pass
+email  vtctlat98@gmail.com
+sub_url  https://vyy.idsduf.com/api/v1/client/subscribe?token=fce8f9d435653288b4b45cbcec04610c
+time  2025-04-08 17:49:31.963341+08:00
 type  v2board
-更新订阅链接/续费续签失败  注册失败(cgykbmddj646@gmail.com): 'NoneType' object is not subscriptable
+获取订阅失败  can only concatenate str (not "NoneType") to str
 
-[www.mojie.cool]
+[wangdazhuang.top]
 
-[www.moonriver.sbs]
+[wap.nnpy.org]
 
-[www.mysubsoft.com]
-name  403 Forbidden
+[watch.szlatteart.com]
+error  substring not found
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(uxaufqnx479@moakt.cc): {'message': '验证码有误'}
+更新订阅链接/续费续签失败  获取邮箱失败: HTTPSConnectionPool(host='api.mail.gw', port=443): Read timed out. (read timeout=30)
 
-[www.mz-fast.net]
-banned_domains  sharklasers.com
-name  MZFastCloud - 登陆
-type  sspanel
-更新订阅链接/续费续签失败  获取邮箱验证码超时(jkcuoafdp742@sharklasers.com)
+[wd.vovo.pp.ua]
 
-[www.nertron.net]
-name  NerTron
+[wd-blue.com]
+
+[wd-purple.com]
+
+[wdsl88cc-sl.shenlong.wiki]
+
+[web.coo.wiki]
+
+[web.tline.website]
+
+[webridge.pokeryun.link]
+error  HTTPSConnectionPool(host='webridge.pokeryun.top', port=443): Max retries exceeded with url: /env.js (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f04025cb4c0>: Failed to resolve 'webridge.pokeryun.top' ([Errno -2] Name or service not known)"))
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(dgpkydti499@femailtor.com): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  注册失败(fseucgaty799@gmail.com): 'NoneType' object is not subscriptable
 
-[www.otcopusapp.cc]
+[weget.cdn.cache.wentian.org]
 
-[www.paofusub2.com]
-
-[www.pddc.me]
-
-[www.pingzicloud.top]
-
-[www.pkqcloud.com]
-banned_domains  disbox.org
-name  Pikachu
-type  sspanel
-更新订阅链接/续费续签失败  发送邮箱验证码失败(uxzuaxff611@qabq.com): {'ret': 0, 'msg': '非法请求'}
-
-[www.qlgq.top]
+[wEHx49R5Z4CJWf9iNF0r.yun.cat]
