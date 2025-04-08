@@ -11,12 +11,6 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇯🇵 ‍日本
-  - 🇺🇸 ‍美国
-  - 🎏 ‍其他
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
@@ -25,26 +19,8 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - v2ray - ① - 哆啦B梦
-  - v2ray - ② - 哆啦B梦
-  - v2ray - ③ - 哆啦B梦
-  - v2ray - ④ - 哆啦B梦
-  - v2ray - ⑤ - 哆啦B梦
-  - v2ray - ⑥ - 哆啦B梦
-  - ℹ️ 1.续费官网https://qinqin2022.com - 520
-  - ℹ️ 2.qq群1017197334(售后续费） - 520
   - 🇺🇸 D-美国-3|USA-3 - JZ Speed Cloud
   - 🇺🇸 D-美国-7|USA-7 - JZ Speed Cloud
-  - 🇺🇸 美国 AWS *1 - 独孤乐天
-  - 🇺🇸 美国 AWS2 *1 IPv6 - 独孤乐天
-  - 🇺🇸 D-美国-3|USA-3 - JZ Speed Cloud
-  - 🇺🇸 D-美国-7|USA-7 - JZ Speed Cloud
-  - 🇺🇸 美国 AWS *1 - 独孤乐天
-  - 🇺🇸 美国 AWS2 *1 IPv6 - 独孤乐天
-  - 🇯🇵 日本 AWS *3 - 独孤乐天
-  - 🇯🇵 日本 AWS *3 IPv6 - 独孤乐天
-  - 🇯🇵 日本 AWS *3 - 独孤乐天
-  - 🇯🇵 日本 AWS *3 IPv6 - 独孤乐天
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -69,13 +45,7 @@ proxy-groups:
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇺🇸 ‍美国
-  - 🇯🇵 ‍日本
-  - 🎏 ‍其他
   - ✈️ ‍起飞
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -84,68 +54,9 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇯🇵 ‍日本
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id002
-  - 🇯🇵 日本 AWS *3 - 独孤乐天
-  - 🇯🇵 日本 AWS *3 IPv6 - 独孤乐天
-  - 🇯🇵 日本 AWS *3 - 独孤乐天
-  - 🇯🇵 日本 AWS *3 IPv6 - 独孤乐天
-- name: 🇺🇸 ‍美国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 300
-  proxies: &id003
-  - 🇺🇸 D-美国-3|USA-3 - JZ Speed Cloud
-  - 🇺🇸 D-美国-7|USA-7 - JZ Speed Cloud
-  - 🇺🇸 美国 AWS *1 - 独孤乐天
-  - 🇺🇸 美国 AWS2 *1 IPv6 - 独孤乐天
-  - 🇺🇸 D-美国-3|USA-3 - JZ Speed Cloud
-  - 🇺🇸 D-美国-7|USA-7 - JZ Speed Cloud
-  - 🇺🇸 美国 AWS *1 - 独孤乐天
-  - 🇺🇸 美国 AWS2 *1 IPv6 - 独孤乐天
-- name: 🎏 ‍其他
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
-  tolerance: 100
-  proxies: &id004
-  - v2ray - ① - 哆啦B梦
-  - v2ray - ② - 哆啦B梦
-  - v2ray - ③ - 哆啦B梦
-  - v2ray - ④ - 哆啦B梦
-  - v2ray - ⑤ - 哆啦B梦
-  - v2ray - ⑥ - 哆啦B梦
-  - ℹ️ 1.续费官网https://qinqin2022.com - 520
-  - ℹ️ 2.qq群1017197334(售后续费） - 520
-- name: 👆🏻🇯🇵 ‍日本
-  type: select
-  proxies: *id002
-- name: 👆🏻🇺🇸 ‍美国
-  type: select
-  proxies: *id003
-- name: 👆🏻🎏 ‍其他
-  type: select
-  proxies: *id004
 proxies:
-- {name: v2ray - ① - 哆啦B梦, server: 172.67.36.176, port: 443, type: vmess, uuid: cd561c5c-b218-310f-a739-8c0f4dd75d87, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v3-3.xiaosiqiu.xyz}}, udp: true}
-- {name: v2ray - ② - 哆啦B梦, server: 172.64.69.236, port: 443, type: vmess, uuid: cd561c5c-b218-310f-a739-8c0f4dd75d87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v3-4.xiaosiqiu.xyz}}, udp: true}
-- {name: v2ray - ③ - 哆啦B梦, server: 104.18.114.45, port: 443, type: vmess, uuid: cd561c5c-b218-310f-a739-8c0f4dd75d87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v3-5.xiaosiqiu.xyz}}, udp: true}
-- {name: v2ray - ④ - 哆啦B梦, server: 162.159.134.8, port: 443, type: vmess, uuid: cd561c5c-b218-310f-a739-8c0f4dd75d87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v3-6.xiaosiqiu.xyz}}, udp: true}
-- {name: v2ray - ⑤ - 哆啦B梦, server: 172.67.59.204, port: 443, type: vmess, uuid: cd561c5c-b218-310f-a739-8c0f4dd75d87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v3-7.xiaosiqiu.xyz}}, udp: true}
-- {name: v2ray - ⑥ - 哆啦B梦, server: 172.67.242.74, port: 443, type: vmess, uuid: cd561c5c-b218-310f-a739-8c0f4dd75d87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v3-8.xiaosiqiu.xyz}}, udp: true}
 - {name: 🇺🇸 D-美国-3|USA-3 - JZ Speed Cloud, server: dns3.speeddns.xyz, port: 10301, type: ssr, cipher: chacha20-ietf, password: f7wGPZRd1otw, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6477:KIVlWV, obfs-param: aba716477.microsoft.com, udp: true}
 - {name: 🇺🇸 D-美国-7|USA-7 - JZ Speed Cloud, server: dns3.speeddns.xyz, port: 10229, type: ssr, cipher: chacha20-ietf, password: f7wGPZRd1otw, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6477:KIVlWV, obfs-param: aba716477.microsoft.com, udp: true}
-- {name: 🇺🇸 美国 AWS *1 - 独孤乐天, server: us-1.anewstart.cyou, port: 5061, type: vmess, uuid: 41488ac3-f8ad-32ae-8fb3-7a7c2eb3b3dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 AWS2 *1 IPv6 - 独孤乐天, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 41488ac3-f8ad-32ae-8fb3-7a7c2eb3b3dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 AWS *3 - 独孤乐天, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: 41488ac3-f8ad-32ae-8fb3-7a7c2eb3b3dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 AWS *3 IPv6 - 独孤乐天, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 41488ac3-f8ad-32ae-8fb3-7a7c2eb3b3dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 1.续费官网https://qinqin2022.com - 520, server: 1.1.1.1, port: 31500, type: ssr, cipher: chacha20, password: CnBwof, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 10843:KAsqwp, obfs-param: 5156a10843.microsoft.com, udp: true}
-- {name: ℹ️ 2.qq群1017197334(售后续费） - 520, server: 959732781, port: 31500, type: ssr, cipher: chacha20, password: CnBwof, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 10843:KAsqwp, obfs-param: 5156a10843.microsoft.com, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

@@ -11,24 +11,23 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇭🇰 ‍香港
-  - 🇺🇸 ‍美国
-  - 🎏 ‍其他
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - HK
-  - US
-  - Other
+  proxies: &id001
+  - v2ray - ① - 哆啦B梦
+  - v2ray - ② - 哆啦B梦
+  - v2ray - ③ - 哆啦B梦
+  - v2ray - ④ - 哆啦B梦
+  - v2ray - ⑤ - 哆啦B梦
+  - v2ray - ⑥ - 哆啦B梦
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -45,18 +44,12 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇺🇸 ‍美国
-  - 🎏 ‍其他
   - ✈️ ‍起飞
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -65,58 +58,13 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  tolerance: 100
-  use: &id002
-  - HK
-- name: 🇺🇸 ‍美国
-  type: url-test
-  tolerance: 300
-  use: &id003
-  - US
-- name: 🎏 ‍其他
-  type: url-test
-  tolerance: 100
-  use: &id004
-  - Other
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  use: *id002
-- name: 👆🏻🇺🇸 ‍美国
-  type: select
-  use: *id003
-- name: 👆🏻🎏 ‍其他
-  type: select
-  use: *id004
-proxy-providers:
-  HK:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/cheemsar-3/main/trials_providers/vt.louwangzhiyu.xyz/HK.yaml
-    interval: 180
-    path: trials_providers/vt.louwangzhiyu.xyz/HK.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  US:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/cheemsar-3/main/trials_providers/vt.louwangzhiyu.xyz/US.yaml
-    interval: 180
-    path: trials_providers/vt.louwangzhiyu.xyz/US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  Other:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/cheemsar-3/main/trials_providers/vt.louwangzhiyu.xyz/Other.yaml
-    interval: 180
-    path: trials_providers/vt.louwangzhiyu.xyz/Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+proxies:
+- {name: v2ray - ① - 哆啦B梦, server: 172.67.36.176, port: 443, type: vmess, uuid: cd561c5c-b218-310f-a739-8c0f4dd75d87, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v3-3.xiaosiqiu.xyz}}, udp: true}
+- {name: v2ray - ② - 哆啦B梦, server: 172.64.69.236, port: 443, type: vmess, uuid: cd561c5c-b218-310f-a739-8c0f4dd75d87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v3-4.xiaosiqiu.xyz}}, udp: true}
+- {name: v2ray - ③ - 哆啦B梦, server: 104.18.114.45, port: 443, type: vmess, uuid: cd561c5c-b218-310f-a739-8c0f4dd75d87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v3-5.xiaosiqiu.xyz}}, udp: true}
+- {name: v2ray - ④ - 哆啦B梦, server: 162.159.134.8, port: 443, type: vmess, uuid: cd561c5c-b218-310f-a739-8c0f4dd75d87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v3-6.xiaosiqiu.xyz}}, udp: true}
+- {name: v2ray - ⑤ - 哆啦B梦, server: 172.67.59.204, port: 443, type: vmess, uuid: cd561c5c-b218-310f-a739-8c0f4dd75d87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v3-7.xiaosiqiu.xyz}}, udp: true}
+- {name: v2ray - ⑥ - 哆啦B梦, server: 172.67.242.74, port: 443, type: vmess, uuid: cd561c5c-b218-310f-a739-8c0f4dd75d87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v3-8.xiaosiqiu.xyz}}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

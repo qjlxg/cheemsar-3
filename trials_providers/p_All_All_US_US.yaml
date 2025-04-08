@@ -1,0 +1,7 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇺🇸 D-美国-3|USA-3 - JZ Speed Cloud, server: dns3.speeddns.xyz, port: 10301, type: ssr, cipher: chacha20-ietf, password: f7wGPZRd1otw, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6477:KIVlWV, obfs-param: aba716477.microsoft.com, udp: true}
+- {name: 🇺🇸 D-美国-7|USA-7 - JZ Speed Cloud, server: dns3.speeddns.xyz, port: 10229, type: ssr, cipher: chacha20-ietf, password: f7wGPZRd1otw, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6477:KIVlWV, obfs-param: aba716477.microsoft.com, udp: true}
+- {name: 🇺🇸 美国 AWS *1 - 独孤乐天, server: us-1.anewstart.cyou, port: 5061, type: vmess, uuid: 41488ac3-f8ad-32ae-8fb3-7a7c2eb3b3dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 AWS2 *1 IPv6 - 独孤乐天, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 41488ac3-f8ad-32ae-8fb3-7a7c2eb3b3dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
