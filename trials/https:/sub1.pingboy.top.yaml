@@ -9,8 +9,36 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
+  - ⚡ ‍低延迟
+  - 👆🏻 ‍指定
+  - 🇭🇰 ‍香港
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🇺🇸 ‍美国
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🇺🇸 ‍美国
   - DIRECT
   - REJECT
+- name: ⚡ ‍低延迟
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id001
+  - 🇭🇰 Hongkong#1 - 虚幻加速
+  - 🇭🇰 Hongkong#3 - 虚幻加速
+  - 🇭🇰 Hongkong#5 - 虚幻加速
+  - 🇸🇬 Singapore#1 - 虚幻加速
+  - 🇸🇬 Singapore#3 - 虚幻加速
+  - 🇯🇵 Japan#1 - 虚幻加速
+  - 🇯🇵 Japan#3 - 虚幻加速
+  - 🇺🇸 United States#1 - 虚幻加速
+  - 🇺🇸 United States#3 - 虚幻加速
+- name: 👆🏻 ‍指定
+  type: select
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -27,11 +55,21 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
+  - 🇭🇰 ‍香港
   - ✈️ ‍起飞
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
   type: select
@@ -39,7 +77,61 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-proxies: []
+- name: 🇭🇰 ‍香港
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id002
+  - 🇭🇰 Hongkong#1 - 虚幻加速
+  - 🇭🇰 Hongkong#3 - 虚幻加速
+  - 🇭🇰 Hongkong#5 - 虚幻加速
+- name: 🇸🇬 ‍新加坡
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id003
+  - 🇸🇬 Singapore#1 - 虚幻加速
+  - 🇸🇬 Singapore#3 - 虚幻加速
+- name: 🇯🇵 ‍日本
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id004
+  - 🇯🇵 Japan#1 - 虚幻加速
+  - 🇯🇵 Japan#3 - 虚幻加速
+- name: 🇺🇸 ‍美国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 300
+  proxies: &id005
+  - 🇺🇸 United States#1 - 虚幻加速
+  - 🇺🇸 United States#3 - 虚幻加速
+- name: 👆🏻🇭🇰 ‍香港
+  type: select
+  proxies: *id002
+- name: 👆🏻🇸🇬 ‍新加坡
+  type: select
+  proxies: *id003
+- name: 👆🏻🇯🇵 ‍日本
+  type: select
+  proxies: *id004
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id005
+proxies:
+- {name: 🇭🇰 Hongkong#1 - 虚幻加速, server: svip1.pingboy.top, port: 17993, type: vmess, uuid: 73494e65-88e4-44a2-b061-6470e7a398c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 Hongkong#3 - 虚幻加速, server: svip1.pingboy.top, port: 38913, type: vmess, uuid: 73494e65-88e4-44a2-b061-6470e7a398c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 Hongkong#5 - 虚幻加速, server: svip1.pingboy.top, port: 39840, type: vmess, uuid: 73494e65-88e4-44a2-b061-6470e7a398c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan#1 - 虚幻加速, server: svip1.pingboy.top, port: 19015, type: vmess, uuid: 73494e65-88e4-44a2-b061-6470e7a398c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan#3 - 虚幻加速, server: svip1.pingboy.top, port: 19015, type: vmess, uuid: 73494e65-88e4-44a2-b061-6470e7a398c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 Singapore#1 - 虚幻加速, server: svip1.pingboy.top, port: 28673, type: vmess, uuid: 73494e65-88e4-44a2-b061-6470e7a398c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 Singapore#3 - 虚幻加速, server: svip1.pingboy.top, port: 28673, type: vmess, uuid: 73494e65-88e4-44a2-b061-6470e7a398c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 United States#1 - 虚幻加速, server: svip1.pingboy.top, port: 15327, type: vmess, uuid: 73494e65-88e4-44a2-b061-6470e7a398c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 United States#3 - 虚幻加速, server: svip1.pingboy.top, port: 15327, type: vmess, uuid: 73494e65-88e4-44a2-b061-6470e7a398c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

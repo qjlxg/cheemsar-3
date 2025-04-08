@@ -1,5 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇺🇸 D-美国-3|USA-3 - JZ Speed Cloud, server: dns3.speeddns.xyz, port: 10301, type: ssr, cipher: chacha20-ietf, password: f7wGPZRd1otw, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6477:KIVlWV, obfs-param: aba716477.microsoft.com, udp: true}
-- {name: 🇺🇸 D-美国-7|USA-7 - JZ Speed Cloud, server: dns3.speeddns.xyz, port: 10229, type: ssr, cipher: chacha20-ietf, password: f7wGPZRd1otw, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6477:KIVlWV, obfs-param: aba716477.microsoft.com, udp: true}

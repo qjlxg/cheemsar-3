@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 'ℹ️ 💳 前往：d16.net 购买 - ', server: www.dageyun.com, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
