@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇩🇪 德国01_免费 - 山海, server: de01.sh-cloudflare.sbs, port: 2096, tfo: true, type: vmess, uuid: 07b08077-8263-472a-b9fb-7d40bd5ed194, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: de01.sh-cloudflare.sbs, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
