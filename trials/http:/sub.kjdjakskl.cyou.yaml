@@ -11,6 +11,18 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
+  - 🇯🇵 ‍日本
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
@@ -19,7 +31,18 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - ℹ️ 🔥 多宝云官网：dobcloud.com - 多宝云加速
+  - 🇭🇰 香港01 - 血液加速器
+  - 🇭🇰 香港02 - 血液加速器
+  - 🇭🇰 香港03 - 血液加速器
+  - 🇹🇼 台湾 1 - 血液加速器
+  - 🇹🇼 台湾01 - 血液加速器
+  - 🇯🇵 日本01 - 血液加速器
+  - 🇯🇵 日本02 - 血液加速器
+  - 🇯🇵 日本03 - 血液加速器
+  - 🇯🇵 日本04 - 血液加速器
+  - 🇺🇸 美国 纽约01 - 血液加速器
+  - 🇺🇸 美国 纽约2 - 血液加速器
+  - ℹ️ xueyejiasu.com发布地址不迷路 - 血液加速器
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -39,12 +62,26 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🇹🇼 ‍台湾
+  - 🇯🇵 ‍日本
+  - 🎏 ‍其他
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -53,8 +90,90 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
+- name: 🇭🇰 ‍香港
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id002
+  - 🇭🇰 香港01 - 血液加速器
+  - 🇭🇰 香港02 - 血液加速器
+  - 🇭🇰 香港03 - 血液加速器
+- name: 🇹🇼 ‍台湾
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id003
+  - 🇹🇼 台湾 1 - 血液加速器
+  - 🇹🇼 台湾01 - 血液加速器
+- name: 🇨🇳 ‍中国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id004
+  - 🇭🇰 香港01 - 血液加速器
+  - 🇭🇰 香港02 - 血液加速器
+  - 🇭🇰 香港03 - 血液加速器
+  - 🇹🇼 台湾 1 - 血液加速器
+  - 🇹🇼 台湾01 - 血液加速器
+- name: 🇯🇵 ‍日本
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id005
+  - 🇯🇵 日本01 - 血液加速器
+  - 🇯🇵 日本02 - 血液加速器
+  - 🇯🇵 日本03 - 血液加速器
+  - 🇯🇵 日本04 - 血液加速器
+- name: 🇺🇸 ‍美国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 300
+  proxies: &id006
+  - 🇺🇸 美国 纽约01 - 血液加速器
+  - 🇺🇸 美国 纽约2 - 血液加速器
+- name: 🎏 ‍其他
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id007
+  - ℹ️ xueyejiasu.com发布地址不迷路 - 血液加速器
+- name: 👆🏻🇭🇰 ‍香港
+  type: select
+  proxies: *id002
+- name: 👆🏻🇹🇼 ‍台湾
+  type: select
+  proxies: *id003
+- name: 👆🏻🇨🇳 ‍中国
+  type: select
+  proxies: *id004
+- name: 👆🏻🇯🇵 ‍日本
+  type: select
+  proxies: *id005
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id006
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id007
 proxies:
-- {name: ℹ️ 🔥 多宝云官网：dobcloud.com - 多宝云加速, server: 8.8.8.8, port: 1234, type: ss, cipher: aes-256-gcm, password: 1c8ce2fc-6d10-41ab-a8d6-b5b4087a83ce, udp: true}
+- {name: ℹ️ xueyejiasu.com发布地址不迷路 - 血液加速器, server: hk.kfsldflk.xyz, port: 1200, tfo: true, type: ss, cipher: aes-256-gcm, password: d2505b2a-a1e6-4647-a278-7ae23b82639a, udp: true}
+- {name: 🇹🇼 台湾 1 - 血液加速器, server: gy.666666222.shop, port: 20032, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: d2505b2a-a1e6-4647-a278-7ae23b82639a, udp: true}
+- {name: 🇹🇼 台湾01 - 血液加速器, server: gy.666666222.shop, port: 47564, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: d2505b2a-a1e6-4647-a278-7ae23b82639a, udp: true}
+- {name: 🇭🇰 香港01 - 血液加速器, server: gy.666666222.shop, port: 34338, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: d2505b2a-a1e6-4647-a278-7ae23b82639a, udp: true}
+- {name: 🇭🇰 香港02 - 血液加速器, server: gy.666666222.shop, port: 20035, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: d2505b2a-a1e6-4647-a278-7ae23b82639a, udp: true}
+- {name: 🇭🇰 香港03 - 血液加速器, server: gy.666666222.shop, port: 20052, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: d2505b2a-a1e6-4647-a278-7ae23b82639a, udp: true}
+- {name: 🇯🇵 日本01 - 血液加速器, server: gy.666666222.shop, port: 20002, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: d2505b2a-a1e6-4647-a278-7ae23b82639a, udp: true}
+- {name: 🇯🇵 日本02 - 血液加速器, server: gy.666666222.shop, port: 20004, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: d2505b2a-a1e6-4647-a278-7ae23b82639a, udp: true}
+- {name: 🇯🇵 日本03 - 血液加速器, server: gy.666666222.shop, port: 20006, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: d2505b2a-a1e6-4647-a278-7ae23b82639a, udp: true}
+- {name: 🇯🇵 日本04 - 血液加速器, server: gy.666666222.shop, port: 20008, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: d2505b2a-a1e6-4647-a278-7ae23b82639a, udp: true}
+- {name: 🇺🇸 美国 纽约01 - 血液加速器, server: gy.666666222.shop, port: 20013, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: d2505b2a-a1e6-4647-a278-7ae23b82639a, udp: true}
+- {name: 🇺🇸 美国 纽约2 - 血液加速器, server: gy.666666222.shop, port: 20016, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: d2505b2a-a1e6-4647-a278-7ae23b82639a, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
