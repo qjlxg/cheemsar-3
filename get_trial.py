@@ -22,7 +22,7 @@ def safe_run(func, *args, **kwargs):
         print(f"Error occurred in {func.__name__}: {e}")
         return None
 
-def get_sub(session: PanelSession, opt: dict, cache: dictstr, liststr]]): 
+def get_sub(session: PanelSession, opt: dict, cache: dictstr, liststr): 
     url = cache['sub_url']0] 
     suffix = ' - ' + g0(cache, 'name') 
     if 'speed_limit' in opt: 
