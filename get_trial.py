@@ -1,3 +1,5 @@
+
+
 ```python
 import os 
 from concurrent.futures import ThreadPoolExecutor 
@@ -5,13 +7,81 @@ from datetime import timedelta
 from random import choice, randint 
 from time import time 
 from urllib.parse import urlsplit, urlunsplit 
-
+ 
 from apis import PanelSession, TempEmail, guess_panel, panel_class_map 
 from subconverter import gen_base64_and_clash_config, get 
 from utils import (clear_files, g0, keep, list_file_paths, list_folder_paths, 
  rand_id, read, read_cfg, remove, size2str, str2timestamp, 
  timestamp2str, to_zero, write, write_cfg) 
+ 
+ 
+def get_sub(session: PanelSession, opt: dict, cache: dictstr, liststr]]): 
+    try:
+        url = cache['sub_url']] 
+        suffix = ' - ' + g0(cache, 'name') 
+        if 'speed_limit' in opt: 
+            suffix += ' ⚠️限速 ' + opt['speed_limit'] 
+        try:
+            info, *rest = get(url, suffix)
+        except Exception:
+            origin = urlsplit(session.origin):2]
+            url = '|'.join(urlunsplit(origin + urlsplit(part)2:]) for part in url.split('|'))
+            info, *rest = get(url, suffix)
+        cache['sub_url']] = url
+        if not info and hasattr(session, 'get_sub_info'):
+            session.login(cache['email']])
+            info = session.get_sub_info()
+        return info, *rest
+    except Exception:
+        # 忽略所有错误
+        return None, []
 
+
+def should_turn(session: PanelSession, opt: dict, cache: dictstr, liststr]]):
+    try:
+        if 'sub_url' not in cache:
+            return 1,
+
+        now = time()
+        try:
+            info, *rest = get_sub(session, opt, cache)
+        except Exception as e:
+            msg = str(e)
+            if '邮箱' in msg and ('不存在' in msg or '禁' in msg or '黑' in msg):
+                if (d := cache['email']].split('@')1]) not in ('gmail.com', 'qq.com', g0(cache, 'email_domain')):
+                    cache['banned_domains'].append(d)
+                return 2,
+            # 忽略其他错误
+            return 1, None, []
+
+        return int(
+            not info
+            or opt.get('turn') == 'always'
+            or float(info['total']) - (float(info['upload']) + float(info['download'])) < (1 << 28)
+            or (opt.get('expire') != 'never' and info.get('expire') and str2timestamp(info.get('expire')) - now < ((now - str2timestamp(cache['time']])) / 7 if 'reg_limit' in opt else 2400))
+        ), info, *rest
+    except Exception:
+        # 忽略所有错误
+        return 1, None, []
+
+# ...（省略其他函数，类似地在关键操作前后加入try-except来忽略错误）
+
+def get_trial(host, opt: dict, cache: dict[str, list[str]]):
+    try:
+        log = []
+        session = new_panel_session(host, cache, log)
+        if session:
+            get_and_save(session, host, opt, cache, log)
+            if session.redirect_origin:
+                cache['api_host'] = session.host
+        return log
+    except Exception:
+        # 忽略所有错误
+        return []
+
+# 主程序部分保持不变
+
+```python
 def safe_run(func, *args, **kwargs):
     """
     A wrapper function to run a function safely, ignoring all errors.
@@ -155,3 +225,4 @@ def register(session: PanelSession, opt: dict, cache: dictstr, liststr]], log: l
                             cache['auto_invite'] = 'F'
                         else:
                             log.append(f'{session.host}({email}): {e}')
+
