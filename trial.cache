@@ -1,177 +1,136 @@
-[https://checkmate.foundation]
-
-[http://checkmate.foundation]
-
-[http://45.147.77.154:8080]
-
-[https://3.85.2.45]
-
-[https://13.36.205.251]
-
-[https://43.198.210.194]
-
-[https://wiseavax.finance]
-
-[http://wiseavax.finance]
-
-[https://15.222.75.139]
-
-[https://www.note-ems.com]
-
-[https://101.37.246.231]
-
-[http://discourse.gooddollar.org]
-
-[http://36.50.176.250:8002]
-
-[http://partner-ot.ru]
-
-[https://partner-ot.ru]
-
-[http://app2.buildingincloud.net]
-
-[https://app2.buildingincloud.net]
-
-[https://samarkand.kzmc.uz]
-
-[https://andizhan.kzmc.uz]
-
-[https://buhara.kzmc.uz]
-
-[https://namangan.kzmc.uz]
-
-[http://kzmc.uz]
-
-[https://kzmc.uz]
-
-[https://111.231.18.75]
-
-[http://ahojfinancie.sk]
-
-[https://yl.bo6fhkw7.com]
-
-[https://communaute-asexuelle.fr]
-
-[http://entre-l.net]
-
-[https://entre-l.net]
-
-[http://gay-t.fr]
-
-[http://communaute-asexuelle.fr]
-
-[http://api.betolerant.fr]
-
-[https://gay-t.fr]
-
-[https://adotolerant.fr]
-
-[https://api.betolerant.fr]
-
-[https://sia.uts.ac.id]
-
-[http://sia.uts.ac.id]
-
-[https://baseking.lol]
-
-[https://hourras.com]
-
-[https://facility-qa.updsp.in]
-
-[https://cpas.arboos.com]
-name  Se connecter à Arboos
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(etmbsevcd878@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (200 OK '<!DOCTYPE html>\n<html>\n<head>\n <meta charset="utf-8">\n <meta http-equiv="X-UA-Compatible" content="IE=edge">\n <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n <meta name="description" content="">\n <meta name="author" content="">\n\n <title>Se connecter à Arboos</title>\n\n <script\n src="https://code.jquery.com/jquery-3.4.1.min.js"\n integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="\n crossorigin="anonymous"></script>\n <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>\n <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">\n <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.css" rel="stylesheet">\n <!--link href="/vendor/jquery-confirm/jquery-confirm.min.css" rel="stylesheet">\n <script src="/vendor/jquery-confirm/jquery-confirm.min.js"></script-->\n <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.js"></script>\n <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>\n <!--script-- src="/vendor/jquery-easing/jquery.easing.min.js"></script-->\n\n\n <script src="https://unpkg.com/@popperjs/core@2"></script>\n <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"\n integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">\n\n <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"\n integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>\n <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"\n integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04=" crossorigin="anonymous"></script>\n\n <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.5.0/css/all.css"\n integrity="sha384-j8y0ITrvFafF4EkV1mPW0BKm6dp3c+J9Fky22Man50Ofxo2wNe5pT1oZejDH9/Dt" crossorigin="anonymous">\n\n <link href="/css/sb-admin.css" rel="stylesheet">\n <style>\n body {\r\n height: 100%;\r\n width: 100%;\r\n /* background-position-x:-150px;\r\n background-position-y:300px;*/\r\n background-position-x: -50vw;\r\n background-position-y: top 50vh;\r\n background-image: url(/app/arboos/media/arboos-white.svg); /*your background image*/\r\n background-repeat: no-repeat; /*we want to have one single image not a repeated one*/\r\n background-size: cover; /*this sets the image to fullscreen covering the whole screen*/\r\n} </style>\n <script>\n let root = "fdIN0d2" ;\n function ensureJson(data) {\n let res = false;\n if (typeof data == \'object\') {\n res = data;\n } else {\n try {\n res = JSON.parse(data);\n } catch (e) {\n }\n }\n return res;\n }\n\n function login() {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'hide\');\n $(\'.loginItem\').show();\n $(\'.lostPwdItem\').hide();\n $(\'.registerItem\').hide();\n $(\'.container\').css(\'visibility\', \'visible\');\n $(\'input[name=password]\').css(\'visibility\', \'visible\');\n setTimeout(function () {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'show\');\n }, 8000);\n\n }\n\n function lostPassword() {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'hide\');\n $(\'.loginItem\').hide();\n $(\'.lostPwdItem\').show();\n $(\'.registerItem\').hide();\n $(\'input[name=password]\').css(\'visibility\', \'hidden\');\n setTimeout(function () {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'show\');\n }, 8000);\n\n }\n\n function register() {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'hide\');\n $(\'.loginItem\').hide();\n $(\'.lostPwdItem\').hide();\n $(\'.registerItem\').show();\n $(\'input[name=password]\').css(\'visibility\', \'hidden\');\n setTimeout(function () {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'show\');\n }, 8000);\n\n }\n\n function doRegister() {\n $(\'#loginCards\').hide();\n $.post(\'./\', {\n e: $(\'input[name=email]\').val(),\n f:\'fdIN0d2\', a: \'register\', c: token, r:root\n }).done(function (data) {\n $.dialog({\n icon: "far fa-file-signature",\n title: "S\'enregistrer",\n content: "Un email vous a été envoyé pour confirmer votre demande.",\n onClose: function () {\n document.location.reload();\n },\n backgroundDismiss: true\n });\n });\n }\n\n function doLostPassword() {\n $(\'#loginCards\').hide();\n $.post(\'./\', {\n e: $(\'input[name=email]\').val(),\n f:\'fdIN0d2\', a: \'lostPassword\', c: token, r:root\n }).done(function (data) {\n $.dialog({\n icon: "far fa-key",\n title: "Mot de passe perdu",\n content: "Un email vous a été envoyé pour confirmer votre demande.",\n onClose: function () {\n document.location.reload();\n },\n backgroundDismiss: true\n });\n });\n }\n\n var token = false;\n\n function doLogin() {\n $(\'#loginCards\').hide();\n $.post(\'./\', {\n api:\'login\',\n e: $(\'input[name=email]\').val(),\n p: $(\'input[name=password]\').val(),\n f:\'fdIN0d2\', c: token, r:root\n }).done(function (data) {\n data = ensureJson(data);\n if (data.ok) {\n //?objid=f7zzTTc_forest&root=f7zzTTc_forest\n window.location = data.homeId ? ("./?objid="+data.homeId/*+"&root="+data.homeId*/) : \'./\';\n //location.reload() ;\n } else {\n\n $.dialog({\n icon: "far fa-warning",\n title: "Se connecter",\n content: "Les informations ne permettent pas de se connecter.",\n onClose: function () {\n //window.location = \'./\';\n location.reload();\n },\n backgroundDismiss: true\n });\n }\n });\n }\n\n </script>\n </head>\n<body class="bg-dark" onload=\'login()\'>\n\n<div id="fb-root"></div>\n<script async defer crossorigin="anonymous"\n src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.3&appId=326962054772174&autoLogAppEvents=1"></script>\n\n<br/>\n<br/>\n<br/>\n<br/>\n<div class=\'container\' style=\'visibility:hidden\'>\n <div class=\'row\' id=\'loginCards\'>\n <div class="col-4">\n </div>\n <div class="col-4">\n <div class=\'card\'>\n <div class="card-header text-white bg-primary loginItem">Se connecter</div>\n <div class="card-header text-white bg-primary lostPwdItem">Mot de passe perdu</div>\n <div class="card-header text-white bg-primary registerItem">S\'enregistrer</div>\n <div class="card-body loginItem">\n Entrez votre mail et mot de passe<br/> </div>\n <div class="card-body lostPwdItem">\n Entrez votre mail et validez pour recevoir un nouveau mot de passe. </div>\n <div class="card-body registerItem">\n Entrez votre email et validez pour recevoir votre mot de passe. </div>\n <div class="card-body">\n <input type="email" name="email" class="form-control"\n placeholder="Adresse email" required="required"\n autofocus="autofocus">\n <input type="password" name="password" class="form-control my-2"\n placeholder="Mot de passe" required="required"\n autofocus="autofocus">\n <a class="btn btn-primary btn-block loginItem"\n\n onclick="doLogin()" href="#">Se connecter</a>\n <a class="btn btn-primary btn-block lostPwdItem"\n\n onclick="doLostPassword()" href="#">Recevoir un nouveau mot de passe</a>\n <a class="btn btn-primary btn-block registerItem"\n\n onclick="doRegister()" href="#">S\'enregistrer</a>\n <hr/>\n <a href=\'#\' onclick=\'register()\'\n data-bs-toggle="tooltip" data-placement="left"\n title="Pour une première connection"\n class="loginItem">S\'enregistrer</a>\n <div class=\'float-right\'>\n <a href=\'#\' onclick=\'lostPassword()\'\n data-bs-toggle="tooltip" data-placement="bottom"\n title="Si vous avez perdu votre mot de passe" class="loginItem">Mot de passe perdu</a>\n <a href=\'#\' onclick=\'login()\'\n class="registerItem">Se connecter</a>\n <a href=\'#\' onclick=\'login()\'\n class="lostPwdItem">Se connecter</a>\n </div>\n </div>\n </div>\n </div>\n </div>\n</div>\n<script>\n $(function () {\n $(\'[data-bs-toggle="tooltip"]\').tooltip({container: \'body\'});\n })\n setTimeout(function () {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'show\');\n }, 4000);\n</script>\n<script>\r\nfunction showWarning(title,text,fn=null) {\r\n return info(title,text,fn,"exclamation-triangle") ;\r\n}\r\n\r\nfunction infoActionOk(fn = null) {\r\n $.confirm({\r\n icon: \'fad fa-2x fa-info-check\',\r\n theme: \'supervan\',\r\n title: "Operation successful",\r\n content: "Operation finished successfully",\r\n draggable: true,\r\n buttons: {\r\n confirm: {\r\n text : "ok",\r\n action : function () {\r\n fn && fn() ;\r\n }\r\n }\r\n }\r\n });\r\n}\r\n\r\nfunction info(title,text,fn=null,icn=\'info\') {\r\n //icn = icn ? \'<i class="fad fa-\'+icn+\'"></i> \' : \'\' ;\r\n $.confirm({\r\n icon: \'fad fa-2x fa-\'+(icn?icn:\'info-circle\'),\r\n theme: \'supervan\',\r\n title: title,\r\n content: text,\r\n draggable: true,\r\n buttons: {\r\n confirm: {\r\n text : "ok",\r\n action : function () {\r\n fn && fn() ;\r\n }\r\n }\r\n }\r\n });\r\n}\r\n\r\nfunction pleaseConfirm(title,text,fn,icn,fn2) {\r\n //icn = icn ? \'<i class="\'+icn+\'"></i> \' : \'\' ;\r\n $.confirm({\r\n icon: \'fad fa-2x fa-\'+(icn?icn:\'question-circle\'),\r\n theme: \'supervan\',\r\n title: title,\r\n content: text,\r\n draggable: true,\r\n buttons: {\r\n confirm: {\r\n text : "Confirmer",\r\n action : function () {\r\n fn() ;\r\n }\r\n },\r\n cancel: {\r\n text : "Annuler",\r\n action : function () {\r\n if ( fn2 ) {\r\n fn2() ;\r\n }\r\n }\r\n },\r\n }\r\n });\r\n}\r\n\r\nfunction onNewForest() {\r\n pleaseConfirm(\r\n "Nouvelle for\\u00eat de donn\\u00e9es ?",\r\n "Une nouvelle for\\u00eat est sur le point d\'\\u00eatre cr\\u00e9\\u00e9e, merci de confirmer",\r\n function() {\r\n Arboos\r\n .newForest()\r\n .done(function(data) {\r\n /* TODO use result data.forestId */\r\n loadObject(data.forestId+\'_forest\').done(function() {\r\n document.location.reload();\r\n }) ;\r\n }\r\n );\r\n }\r\n ) ;\r\n}\r\n\r\n/**\r\n * Returns the week number for this date. dowOffset is the day of week the week\r\n * "starts" on for your locale - it can be from 0 to 6. If dowOffset is 1 (Monday),\r\n * the week returned is the ISO 8601 week number.\r\n * @param int dowOffset\r\n * @return int\r\n */\r\nDate.prototype.getWeek = function (dowOffset) {\r\n /*getWeek() was developed by Nick Baicoianu at MeanFreePath: http://www.meanfreepath.com */\r\n\r\n dowOffset = typeof(dowOffset) == \'number\' ? dowOffset : 0; //default dowOffset to zero\r\n var newYear = new Date(this.getFullYear(),0,1);\r\n var day = newYear.getDay() - dowOffset; //the day of week the year begins on\r\n day = (day >= 0 ? day : day + 7);\r\n var daynum = Math.floor((this.getTime() - newYear.getTime() -\r\n (this.getTimezoneOffset()-newYear.getTimezoneOffset())*60000)/86400000) + 1;\r\n var weeknum;\r\n //if the year starts before the middle of a week\r\n if(day < 4) {\r\n weeknum = Math.floor((daynum+day-1)/7) + 1;\r\n if(weeknum > 52) {\r\n nYear = new Date(this.getFullYear() + 1,0,1);\r\n nday = nYear.getDay() - dowOffset;\r\n nday = nday >= 0 ? nday : nday + 7;\r\n /*if the next year starts before the middle of\r\n the week, it is week #1 of that year*/\r\n weeknum = nday < 4 ? 1 : 53;\r\n }\r\n }\r\n else {\r\n weeknum = Math.floor((daynum+day-1)/7);\r\n }\r\n return weeknum;\r\n};\r\n\r\n</script>\r\n</body>\n</html>\n')
-
-[http://dev.hlaska.sk]
-
-[http://154.236.182.130]
-
-[https://app.buildingincloud.net]
-
-[http://cpas.arboos.com]
-api_host  cpas.arboos.com
-name  Se connecter à Arboos
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(tkqpgcrx838@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (200 OK '<!DOCTYPE html>\n<html>\n<head>\n <meta charset="utf-8">\n <meta http-equiv="X-UA-Compatible" content="IE=edge">\n <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n <meta name="description" content="">\n <meta name="author" content="">\n\n <title>Se connecter à Arboos</title>\n\n <script\n src="https://code.jquery.com/jquery-3.4.1.min.js"\n integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="\n crossorigin="anonymous"></script>\n <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>\n <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">\n <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.css" rel="stylesheet">\n <!--link href="/vendor/jquery-confirm/jquery-confirm.min.css" rel="stylesheet">\n <script src="/vendor/jquery-confirm/jquery-confirm.min.js"></script-->\n <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.js"></script>\n <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>\n <!--script-- src="/vendor/jquery-easing/jquery.easing.min.js"></script-->\n\n\n <script src="https://unpkg.com/@popperjs/core@2"></script>\n <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"\n integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">\n\n <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"\n integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>\n <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"\n integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04=" crossorigin="anonymous"></script>\n\n <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.5.0/css/all.css"\n integrity="sha384-j8y0ITrvFafF4EkV1mPW0BKm6dp3c+J9Fky22Man50Ofxo2wNe5pT1oZejDH9/Dt" crossorigin="anonymous">\n\n <link href="/css/sb-admin.css" rel="stylesheet">\n <style>\n body {\r\n height: 100%;\r\n width: 100%;\r\n /* background-position-x:-150px;\r\n background-position-y:300px;*/\r\n background-position-x: -50vw;\r\n background-position-y: top 50vh;\r\n background-image: url(/app/arboos/media/arboos-white.svg); /*your background image*/\r\n background-repeat: no-repeat; /*we want to have one single image not a repeated one*/\r\n background-size: cover; /*this sets the image to fullscreen covering the whole screen*/\r\n} </style>\n <script>\n let root = "fdIN0d2" ;\n function ensureJson(data) {\n let res = false;\n if (typeof data == \'object\') {\n res = data;\n } else {\n try {\n res = JSON.parse(data);\n } catch (e) {\n }\n }\n return res;\n }\n\n function login() {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'hide\');\n $(\'.loginItem\').show();\n $(\'.lostPwdItem\').hide();\n $(\'.registerItem\').hide();\n $(\'.container\').css(\'visibility\', \'visible\');\n $(\'input[name=password]\').css(\'visibility\', \'visible\');\n setTimeout(function () {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'show\');\n }, 8000);\n\n }\n\n function lostPassword() {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'hide\');\n $(\'.loginItem\').hide();\n $(\'.lostPwdItem\').show();\n $(\'.registerItem\').hide();\n $(\'input[name=password]\').css(\'visibility\', \'hidden\');\n setTimeout(function () {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'show\');\n }, 8000);\n\n }\n\n function register() {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'hide\');\n $(\'.loginItem\').hide();\n $(\'.lostPwdItem\').hide();\n $(\'.registerItem\').show();\n $(\'input[name=password]\').css(\'visibility\', \'hidden\');\n setTimeout(function () {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'show\');\n }, 8000);\n\n }\n\n function doRegister() {\n $(\'#loginCards\').hide();\n $.post(\'./\', {\n e: $(\'input[name=email]\').val(),\n f:\'fdIN0d2\', a: \'register\', c: token, r:root\n }).done(function (data) {\n $.dialog({\n icon: "far fa-file-signature",\n title: "S\'enregistrer",\n content: "Un email vous a été envoyé pour confirmer votre demande.",\n onClose: function () {\n document.location.reload();\n },\n backgroundDismiss: true\n });\n });\n }\n\n function doLostPassword() {\n $(\'#loginCards\').hide();\n $.post(\'./\', {\n e: $(\'input[name=email]\').val(),\n f:\'fdIN0d2\', a: \'lostPassword\', c: token, r:root\n }).done(function (data) {\n $.dialog({\n icon: "far fa-key",\n title: "Mot de passe perdu",\n content: "Un email vous a été envoyé pour confirmer votre demande.",\n onClose: function () {\n document.location.reload();\n },\n backgroundDismiss: true\n });\n });\n }\n\n var token = false;\n\n function doLogin() {\n $(\'#loginCards\').hide();\n $.post(\'./\', {\n api:\'login\',\n e: $(\'input[name=email]\').val(),\n p: $(\'input[name=password]\').val(),\n f:\'fdIN0d2\', c: token, r:root\n }).done(function (data) {\n data = ensureJson(data);\n if (data.ok) {\n //?objid=f7zzTTc_forest&root=f7zzTTc_forest\n window.location = data.homeId ? ("./?objid="+data.homeId/*+"&root="+data.homeId*/) : \'./\';\n //location.reload() ;\n } else {\n\n $.dialog({\n icon: "far fa-warning",\n title: "Se connecter",\n content: "Les informations ne permettent pas de se connecter.",\n onClose: function () {\n //window.location = \'./\';\n location.reload();\n },\n backgroundDismiss: true\n });\n }\n });\n }\n\n </script>\n </head>\n<body class="bg-dark" onload=\'login()\'>\n\n<div id="fb-root"></div>\n<script async defer crossorigin="anonymous"\n src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.3&appId=326962054772174&autoLogAppEvents=1"></script>\n\n<br/>\n<br/>\n<br/>\n<br/>\n<div class=\'container\' style=\'visibility:hidden\'>\n <div class=\'row\' id=\'loginCards\'>\n <div class="col-4">\n </div>\n <div class="col-4">\n <div class=\'card\'>\n <div class="card-header text-white bg-primary loginItem">Se connecter</div>\n <div class="card-header text-white bg-primary lostPwdItem">Mot de passe perdu</div>\n <div class="card-header text-white bg-primary registerItem">S\'enregistrer</div>\n <div class="card-body loginItem">\n Entrez votre mail et mot de passe<br/> </div>\n <div class="card-body lostPwdItem">\n Entrez votre mail et validez pour recevoir un nouveau mot de passe. </div>\n <div class="card-body registerItem">\n Entrez votre email et validez pour recevoir votre mot de passe. </div>\n <div class="card-body">\n <input type="email" name="email" class="form-control"\n placeholder="Adresse email" required="required"\n autofocus="autofocus">\n <input type="password" name="password" class="form-control my-2"\n placeholder="Mot de passe" required="required"\n autofocus="autofocus">\n <a class="btn btn-primary btn-block loginItem"\n\n onclick="doLogin()" href="#">Se connecter</a>\n <a class="btn btn-primary btn-block lostPwdItem"\n\n onclick="doLostPassword()" href="#">Recevoir un nouveau mot de passe</a>\n <a class="btn btn-primary btn-block registerItem"\n\n onclick="doRegister()" href="#">S\'enregistrer</a>\n <hr/>\n <a href=\'#\' onclick=\'register()\'\n data-bs-toggle="tooltip" data-placement="left"\n title="Pour une première connection"\n class="loginItem">S\'enregistrer</a>\n <div class=\'float-right\'>\n <a href=\'#\' onclick=\'lostPassword()\'\n data-bs-toggle="tooltip" data-placement="bottom"\n title="Si vous avez perdu votre mot de passe" class="loginItem">Mot de passe perdu</a>\n <a href=\'#\' onclick=\'login()\'\n class="registerItem">Se connecter</a>\n <a href=\'#\' onclick=\'login()\'\n class="lostPwdItem">Se connecter</a>\n </div>\n </div>\n </div>\n </div>\n </div>\n</div>\n<script>\n $(function () {\n $(\'[data-bs-toggle="tooltip"]\').tooltip({container: \'body\'});\n })\n setTimeout(function () {\n $(\'[data-bs-toggle="tooltip"]:visible\').tooltip(\'show\');\n }, 4000);\n</script>\n<script>\r\nfunction showWarning(title,text,fn=null) {\r\n return info(title,text,fn,"exclamation-triangle") ;\r\n}\r\n\r\nfunction infoActionOk(fn = null) {\r\n $.confirm({\r\n icon: \'fad fa-2x fa-info-check\',\r\n theme: \'supervan\',\r\n title: "Operation successful",\r\n content: "Operation finished successfully",\r\n draggable: true,\r\n buttons: {\r\n confirm: {\r\n text : "ok",\r\n action : function () {\r\n fn && fn() ;\r\n }\r\n }\r\n }\r\n });\r\n}\r\n\r\nfunction info(title,text,fn=null,icn=\'info\') {\r\n //icn = icn ? \'<i class="fad fa-\'+icn+\'"></i> \' : \'\' ;\r\n $.confirm({\r\n icon: \'fad fa-2x fa-\'+(icn?icn:\'info-circle\'),\r\n theme: \'supervan\',\r\n title: title,\r\n content: text,\r\n draggable: true,\r\n buttons: {\r\n confirm: {\r\n text : "ok",\r\n action : function () {\r\n fn && fn() ;\r\n }\r\n }\r\n }\r\n });\r\n}\r\n\r\nfunction pleaseConfirm(title,text,fn,icn,fn2) {\r\n //icn = icn ? \'<i class="\'+icn+\'"></i> \' : \'\' ;\r\n $.confirm({\r\n icon: \'fad fa-2x fa-\'+(icn?icn:\'question-circle\'),\r\n theme: \'supervan\',\r\n title: title,\r\n content: text,\r\n draggable: true,\r\n buttons: {\r\n confirm: {\r\n text : "Confirmer",\r\n action : function () {\r\n fn() ;\r\n }\r\n },\r\n cancel: {\r\n text : "Annuler",\r\n action : function () {\r\n if ( fn2 ) {\r\n fn2() ;\r\n }\r\n }\r\n },\r\n }\r\n });\r\n}\r\n\r\nfunction onNewForest() {\r\n pleaseConfirm(\r\n "Nouvelle for\\u00eat de donn\\u00e9es ?",\r\n "Une nouvelle for\\u00eat est sur le point d\'\\u00eatre cr\\u00e9\\u00e9e, merci de confirmer",\r\n function() {\r\n Arboos\r\n .newForest()\r\n .done(function(data) {\r\n /* TODO use result data.forestId */\r\n loadObject(data.forestId+\'_forest\').done(function() {\r\n document.location.reload();\r\n }) ;\r\n }\r\n );\r\n }\r\n ) ;\r\n}\r\n\r\n/**\r\n * Returns the week number for this date. dowOffset is the day of week the week\r\n * "starts" on for your locale - it can be from 0 to 6. If dowOffset is 1 (Monday),\r\n * the week returned is the ISO 8601 week number.\r\n * @param int dowOffset\r\n * @return int\r\n */\r\nDate.prototype.getWeek = function (dowOffset) {\r\n /*getWeek() was developed by Nick Baicoianu at MeanFreePath: http://www.meanfreepath.com */\r\n\r\n dowOffset = typeof(dowOffset) == \'number\' ? dowOffset : 0; //default dowOffset to zero\r\n var newYear = new Date(this.getFullYear(),0,1);\r\n var day = newYear.getDay() - dowOffset; //the day of week the year begins on\r\n day = (day >= 0 ? day : day + 7);\r\n var daynum = Math.floor((this.getTime() - newYear.getTime() -\r\n (this.getTimezoneOffset()-newYear.getTimezoneOffset())*60000)/86400000) + 1;\r\n var weeknum;\r\n //if the year starts before the middle of a week\r\n if(day < 4) {\r\n weeknum = Math.floor((daynum+day-1)/7) + 1;\r\n if(weeknum > 52) {\r\n nYear = new Date(this.getFullYear() + 1,0,1);\r\n nday = nYear.getDay() - dowOffset;\r\n nday = nday >= 0 ? nday : nday + 7;\r\n /*if the next year starts before the middle of\r\n the week, it is week #1 of that year*/\r\n weeknum = nday < 4 ? 1 : 53;\r\n }\r\n }\r\n else {\r\n weeknum = Math.floor((daynum+day-1)/7);\r\n }\r\n return weeknum;\r\n};\r\n\r\n</script>\r\n</body>\n</html>\n')
-
-[http://facility-qa.updsp.in]
-
-[https://35.180.222.38]
-
-[http://18.211.232.253]
-
-[https://orzzone.com]
-
-[https://3.6.80.245]
-
-[https://200.98.137.163]
-
-[http://www.orzzone.com]
-
-[https://128.199.195.9]
-
-[https://54.211.83.104]
-
-[http://onetouch.alibaba.com]
-
-[https://runtheday.com]
-
-[https://r-finance.xyz]
-
-[https://www.ehow.com]
-
-[https://www.chilltime.live]
-
-[https://onetouch.alibaba.com]
-
-[https://chilltime.live]
-
-[https://delrealfoods.com]
-
-[http://www.chilltime.live]
-
-[http://chilltime.live]
-
-[https://www.orzzone.com]
-
-[https://www.r-finance.xyz]
-
-[http://www.runtheday.com]
-
-[http://www.r-finance.xyz]
-
-[http://r-finance.xyz]
-
-[http://gyzyxx.gzszyyzyxx.com]
-error  <string>:2 Unexpected "w" at column 19
+[https://ym.qingfan.xyz]
+
+[https://ymjc.cfd]
+
+[https://ymzx.jiedianxielou.workers.dev]
+
+[https://youxiu5004.xiaofeixia.click]
+buy  pass
+email  vugybadxc946@gmail.com
+name  小飞侠
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://youxiu4034.xiaofeixia.cfd/api/v1/client/subscribe?token=befacd1474ad6aff0241e0db384825c5
+time  2025-04-11 15:39:51.213945+08:00
 type  v2board
-更新订阅链接/续费续签失败  注册失败(kloonbhbz781@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found '<!doctype html>\n<html>\n<head>\n <meta charset="utf-8">\n <title>错误信息</title>\n <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />\n\t<meta name="apple-mobile-web-app-capable" content="yes" />\n</head>\n<body>\n\n\n<div style="margin-left:10%;margin-top:5%;">\n <div style="margin-bottom:20px;"><img src="/core/template/face02.png" height="120"></div>\n <div style="font-size:20px;margin-bottom:20px;">您访问的页面不存在，请核对后重试！ <span id="time" style="font-size:18px;"></span></div>\n <div><span style="font-size:12px;border-top:1px solid #ccc;color:#ccc;padding-top:2px;">\n \t\t程序版本：3.2.5-20230421\n </span></div>\n</div>\n\n\n\n</body>\n</html>')
+保存base64/clash订阅失败  mapping values are not allowed here in "<byte string>", line 2, column 270: ... Q==" lang="en" style="background: #2B2B2B;"> ^ (line: 2)
 
-[http://54.85.202.106]
+[https://youxiu5172.xiaofeixia.cfd]
+buy  pass
+email  wxvvosx330@gmail.com
+name  小飞侠
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://youxiu2914.xiaofeixia.click/api/v1/client/subscribe?token=3e71d78102b7a4267c983d96530567b3
+time  2025-04-11 15:39:51.327830+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[http://54.89.78.226]
+[https://youxiu7540.xiaofeixia.click]
+buy  pass
+email  isuxugk798@gmail.com
+name  小飞侠
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://youxiu3566.xiaofeixia.cfd/api/v1/client/subscribe?token=7384fcf69a1d860189316f7fc1d93fd0
+time  2025-04-11 15:39:51.097242+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[http://3.85.2.45]
+[https://youxiu8168.xiaofeixia.info]
+buy  pass
+email  phygbmk603@gmail.com
+name  小飞侠
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://youxiu6235.xiaofeixia.cyou/api/v1/client/subscribe?token=38d971b4dbbfb7b6c6711353ea2295b8
+time  2025-04-11 15:39:51.103681+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[http://15.160.80.118]
+[https://youxiu88.xiaofeixia.click]
+buy  pass
+email  lngwhmc481@gmail.com
+name  小飞侠
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://youxiu614.xiaofeixia.info/api/v1/client/subscribe?token=af1092bc0de90497be96bc407155a865
+time  2025-04-11 15:39:51.095522+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[http://54.221.33.197]
+[https://youxiu9571.xiaofeixia.click]
+buy  pass
+email  iwcmnga371@gmail.com
+name  小飞侠
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://youxiu8124.xiaofeixia.cfd/api/v1/client/subscribe?token=9cf7dc88a0cb74522b313a4883e1bd40
+time  2025-04-11 15:39:51.246797+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[https://54.85.202.106]
+[https://ysjc.us.kg]
 
-[https://eshopsk.ica.cz]
+[https://yt.xn--49sq15btnijvp.xn--fiqs8s]
 
-[https://172.105.99.222]
+[https://yunzhiyidy.54188a.cyou]
+name  云之翼专线机场
+type  v2board
+更新订阅链接/续费续签失败  注册失败(exycugas330@gmail.com): 'NoneType' object is not subscriptable
 
-[http://167.86.87.52:8081]
+[https://yuyun.yuyun.one]
 
-[https://147.78.131.235]
+[https://ywl.201593.xyz]
+name  星月夜微澜
+type  v2board
+更新订阅链接/续费续签失败  注册失败(aovkeiltm629@gmail.com): 'NoneType' object is not subscriptable
 
-[http://select.alldayhr.com]
+[https://yx.ye-xiao.top]
 
-[https://api.lifenome.com]
+[https://yx1.281968.xyz]
+buy  pass
+email  nfdghrwuf395@gmail.com
+name  优选机场
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://yx1.281968.xyz/api/v1/client/subscribe?token=c8fedc12c6d8d223427241e1f84601a8
+time  2025-04-11 15:39:50.367820+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[https://extouro.tem.delivery]
+[https://z.album.icu]
 
-[http://hlaska.sk]
+[https://z.playddt.com]
+
+[https://z.upk.icu]
+
+[https://zhenshihui.shop]
+
+[https://zhenxunkeai.top]
+name  WB云
+type  sspanel
+更新订阅链接/续费续签失败  注册失败(fsjhqcdir823@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (522 <none> '')
+
+[https://zhongzhuan.mxmxmx.lol]
+
+[https://zhuiyun.shop]
+buy  pass
+email  tteateiso307@gmail.com
+name  追云加速
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://zhuiyun.shop/api/v1/client/subscribe?token=8930383ea20509bc4add53eb575a6372
+time  2025-04-11 15:39:52.020887+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[https://zlxz.80jm.com]
+banned_domains  smartnator.com
+name  Sailor Moon机场
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(izrgiavwn682@smartnator.com)
+
+[https://zouma.guanhua.xyz]
+
+[https://zqjc.org]
+buy  pass
+email  ffxnvzb268@gmail.com
+name  最强机场
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://xn--mesz9ptugxg.com/api/v1/client/subscribe?token=091cea1f1a4710dabc8a0e170abf7182
+time  2025-04-11 15:39:51.464997+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
