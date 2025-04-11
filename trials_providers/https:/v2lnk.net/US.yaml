@@ -1,0 +1,9 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇺🇸 US 美国 101 - V2Lnk, server: uswest.nexifyspark.com, port: 16010, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇺🇸 US 美国 102 - V2Lnk, server: uswest.nexifyspark.com, port: 16011, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇺🇸 US 美国 103 - V2Lnk, server: uswest.nexifyspark.com, port: 16012, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇺🇸 US 美国 105 - V2Lnk, server: useast.nexifyspark.com, port: 16013, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇺🇸 US 美国 106 - V2Lnk, server: useast.nexifyspark.com, port: 16014, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇺🇸 US 美国 139 - V2Lnk, server: useast.nexifyspark.com, port: 16015, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}

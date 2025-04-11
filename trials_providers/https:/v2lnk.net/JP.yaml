@@ -1,0 +1,9 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇯🇵 JP 日本 101 - V2Lnk, server: jptokyo.nexifyspark.com, port: 30601, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇯🇵 JP 日本 059 - V2Lnk, server: jptokyo.nexifyspark.com, port: 30602, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇯🇵 JP 日本 053 - V2Lnk, server: jptokyo.nexifyspark.com, port: 30603, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇯🇵 JP 日本 005 - V2Lnk, server: ap-e1.nexifyspark.com, port: 30604, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇯🇵 JP 日本 006 - V2Lnk, server: ap-e1.nexifyspark.com, port: 30605, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇯🇵 JP 日本 010 - V2Lnk, server: ap-e1.nexifyspark.com, port: 30606, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}

@@ -1,0 +1,25 @@
+%YAML 1.1
+---
+proxies:
+- {name: ℹ️ 节点购买地址 v2lnk.com - V2Lnk, server: expa.nexifyspark.com, port: 17133, tfo: true, type: vmess, uuid: 03104037-13fb-4338-9c28-e40efc09d54a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Microsoft, headers: {Host: expa.nexifyspark.com}}, udp: true}
+- {name: 'ℹ️ 注册即送1天试用流量 ,新手无忧，客服群解答 - V2Lnk', server: expa.nexifyspark.com, port: 18600, tfo: true, type: vmess, uuid: 03104037-13fb-4338-9c28-e40efc09d54a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Microsoft, headers: {Host: expa.nexifyspark.com}}, udp: true}
+- {name: 🇰🇷 KR 韩国 200 - V2Lnk, server: ap-e2.nexifyspark.com, port: 21004, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇰🇷 KR 韩国 053 - V2Lnk, server: ap-e2.nexifyspark.com, port: 21006, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇹🇭 TH 泰国 000 - V2Lnk, server: sgwest.nexifyspark.com, port: 21005, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇻🇳 VN 越南 000 - V2Lnk, server: singad.nexifyspark.com, port: 21007, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇲🇾 MY 马来西亚 000 - V2Lnk, server: sgwest.nexifyspark.com, port: 20010, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇨🇦 CA 加拿大 005 - V2Lnk, server: useast.nexifyspark.com, port: 16018, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇬🇧 GB 英国 160 - V2Lnk, server: eulondon.nexifyspark.com, port: 34401, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇬🇧 GB 英国 165 - V2Lnk, server: eulondon.nexifyspark.com, port: 34402, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇩🇪 DE 德国 112 - V2Lnk, server: reg2.nexifyspark.com, port: 34901, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇩🇪 DE 德国 113 - V2Lnk, server: reg2.nexifyspark.com, port: 34902, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇫🇷 FR 法国 020 - V2Lnk, server: reg2.nexifyspark.com, port: 34903, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇮🇹 IT 意大利 185 - V2Lnk, server: reg2.nexifyspark.com, port: 34904, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇳🇱 NL 荷兰 001 - V2Lnk, server: ozwest.nexifyspark.com, port: 34906, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇦🇺 AU 悉尼 127 - V2Lnk, server: ozwest.nexifyspark.com, port: 20061, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇧🇷 BR 巴西 130 - V2Lnk, server: reg3.nexifyspark.com, port: 20062, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇮🇳 IN 印度 201 - V2Lnk, server: reg1.nexifyspark.com, port: 10911, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇦🇪 AE 迪拜 112 - V2Lnk, server: mid.nexifyspark.com, port: 20071, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇷🇺 RU 莫斯科 036 - V2Lnk, server: reg3.nexifyspark.com, port: 19003, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇹🇷 TR 土耳其 011 - V2Lnk, server: reg3.nexifyspark.com, port: 19008, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇺🇦 UA 乌克兰 002 - V2Lnk, server: reg3.nexifyspark.com, port: 19009, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}

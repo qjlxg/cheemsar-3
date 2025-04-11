@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: '🇭🇰 HK 香港1[解锁|优化] - 华人云', server: hry100.2228333.xyz, port: 52500, type: vmess, uuid: c5c15917-42d8-459d-b3d1-b2d942f4c720, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇭🇰 HK 香港2[解锁|优化] - 华人云', server: hry200.2228333.xyz, port: 52501, type: vmess, uuid: c5c15917-42d8-459d-b3d1-b2d942f4c720, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

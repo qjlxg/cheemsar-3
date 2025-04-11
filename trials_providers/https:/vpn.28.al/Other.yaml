@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: '[ss]www.awsconnect.online - Aws Link', server: 1, port: 1, type: ss, cipher: aes-128-gcm, password: 735be03a-3c0a-43b6-9205-f8b748a5b9a0, udp: true}

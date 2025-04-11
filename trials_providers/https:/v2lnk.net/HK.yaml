@@ -1,0 +1,11 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 HK 香港 091 - V2Lnk, server: as-c6.nexifyspark.com, port: 30501, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇭🇰 HK 香港 045 - V2Lnk, server: as-c6.nexifyspark.com, port: 30502, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇭🇰 HK 香港 067 - V2Lnk, server: as-c6.nexifyspark.com, port: 30503, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇭🇰 HK 香港 089 - V2Lnk, server: as-c6.nexifyspark.com, port: 30504, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇭🇰 HK 香港 088 - V2Lnk, server: as-c6.nexifyspark.com, port: 30505, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇭🇰 HK 香港 132 - V2Lnk, server: as-c6.nexifyspark.com, port: 30506, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇭🇰 HK 香港 031 - V2Lnk, server: as-c6.nexifyspark.com, port: 30507, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
+- {name: 🇭🇰 HK 香港 030 - V2Lnk, server: as-c6.nexifyspark.com, port: 30508, tfo: true, type: ss, cipher: chacha20-ietf-poly1305, password: 03104037-13fb-4338-9c28-e40efc09d54a, udp: true}
